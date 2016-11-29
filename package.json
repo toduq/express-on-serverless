@@ -1,0 +1,24 @@
+{
+  "name": "express-on-serverless",
+  "version": "0.1.0",
+  "description": "Node.js express on AWS Lambda, deploying via Serverless framework!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toduq/express-on-serverless.git"
+  },
+  "author": "toduq",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toduq/express-on-serverless/issues"
+  },
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
