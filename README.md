@@ -90,7 +90,7 @@ See `serverless deploy --help` for a summary of available options and the [offic
 `serverless` creates new changes in CloudFormation, API Gateway, and Lambda. Check out the AWS Console for each service to review the impact of your changes.
 
  * [CloudFormation](https://console.aws.amazon.com/cloudformation/home#/stacks?filter=active)
- * [API Gateway](region=us-east-://console.aws.amazon.com/apigateway/home)
+ * [API Gateway](http://console.aws.amazon.com/apigateway/home)
  * [Lambda](https://console.aws.amazon.com/lambda/home?#/functions?display=list)
 
 ## Conclusion
