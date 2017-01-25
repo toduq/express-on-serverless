@@ -48,7 +48,7 @@ if(!module.parent){
 ```
 
 ```yaml
-// serverless.yml
+# serverless.yml
 service: aws-nodejs
 
 provider:
