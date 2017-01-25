@@ -73,7 +73,9 @@ Assuming you used the example above, the Express app will start and listen on po
 
 ## Deploying to Amazon Web Service
 
-The same command is used for both the initial deploy as well as updates
+First, [configure your AWS credentials](https://serverless.com/framework/docs/providers/aws/guide/credentials/#using-aws-access-keys) if you haven't already.
+
+The same command is used for both the initial deploy as well as updates.
 
 ```
 serverless deploy
