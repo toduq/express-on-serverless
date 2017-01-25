@@ -20,7 +20,7 @@ This can be run with express, koa or other Node.js servers as far as it is [requ
 
 Install npm modules and generate template.
 
-```
+```bash
 npm install -g serverless
 npm install -S express express-on-serverless
 serverless create --template aws-nodejs
@@ -28,7 +28,7 @@ serverless create --template aws-nodejs
 
 Modify handler.js and serverless.yml
 
-```
+```javascript
 // handler.js
 const express = require('express')
 const app = express()
@@ -47,7 +47,7 @@ if(!module.parent){
 }
 ```
 
-```
+```yaml
 // serverless.yml
 service: aws-nodejs
 
