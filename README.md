@@ -52,7 +52,10 @@ functions:
   index:
     handler: handler.index
     events:
-      http: any {proxy+}
+      - http:
+          path: /
+          method: any
+      - http: any {proxy+}
 ```
 
 Deploy to AWS!
